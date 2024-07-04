@@ -5,3 +5,8 @@ mount google drive as filesystem mount: https://ucr-research-computing.github.io
 
 
 rclone mount gdrive: ~/gdrive-arrs/ -vv
+
+
+
+sudo ln -s /home/plexarrs/gdrive-arrs/opt-yams /opt/yams
+sudo ln -s /home/plexarrs/gdrive-arrs/srv-media /srv/media
